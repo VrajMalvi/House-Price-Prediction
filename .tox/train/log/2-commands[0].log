@@ -1,0 +1,22 @@
+name: train
+run_id: commands[0]
+env HOME: /Users/vrajmalvi
+env TMPDIR: /var/folders/wy/7hcc8wld3d19wkndm0c5v7yc0000gn/T/
+env LANG: en_US.UTF-8
+env TERM: xterm-256color
+env PATH: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package/bin:/Users/vrajmalvi/miniconda3/envs/house_pred/bin:/Users/vrajmalvi/miniconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox
+env TOX_ENV_DIR: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package
+env VIRTUAL_ENV: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package
+env COLUMNS: 98
+env LINES: 19
+metadata pid: 73691
+cwd: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction
+allow: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package/bin/*:train
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
