@@ -15,7 +15,7 @@ env TOX_ENV_DIR: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/t
 env VIRTUAL_ENV: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package
 env COLUMNS: 98
 env LINES: 19
-metadata pid: 73691
+metadata pid: 75816
 cwd: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction
 allow: /Users/vrajmalvi/Documents/GitHub/House-Price-Prediction/.tox/test_package/bin/*:train
 cmd: python regression_model/train_pipeline.py
